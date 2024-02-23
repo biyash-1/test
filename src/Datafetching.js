@@ -33,7 +33,7 @@ function Datafetching() {
             ))}
           </ul>
         ) : (
-          <p>Data is not an array</p>
+          <><p>Data is not an array</p><p>choose antorht</p></>
           // Render differently for other types of data structures if needed
         )}
       </div>
