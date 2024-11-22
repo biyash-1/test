@@ -7,7 +7,7 @@ export default function Tailblocks() {
       <div className="flex justify-center bg-black ">
         <nav className="self-center w-full max-w-7xl">
           <div className="flex flex-col lg:flex-row justify-around items-center text-white">
-            <h1 className="uppercase pl-5 py-4 text-lg font-sans font-bold">hero</h1>
+         
             <ul className="hidden lg:flex items-center text-[18px] font-semibold pl-32">
               <li className="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
                 <a href="#">Home</a>
@@ -37,8 +37,8 @@ export default function Tailblocks() {
               <div className="text-lg uppercase md:text-3xl">Interactive Components</div>
               <div className="text-xl md:text-3xl">@tailblocks.org</div>
             </div>
-            <div className="md:w-60 w-28  md:h-96 overflow-hidden rounded-xl h-screen">
-              <img src={burger} className="h-auto max-w-full" alt="Burger" />
+            <div className="  relative left-[300px] bottom-[100px] md:w-60 w-28  md:h-96 overflow-hidden rounded-xl h-screen">
+              <img src={burger} className="h-auto max-w-full " alt="Burger" />
             </div>
           </div>
         </div>
